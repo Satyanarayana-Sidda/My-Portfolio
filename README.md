@@ -19,7 +19,7 @@
     <a href="https://github.com/Satyanarayana-Sidda">
       <img src="https://img.shields.io/badge/GitHub-Satyanarayana--Sidda-181717?style=for-the-badge&logo=github&logoColor=white"/>
     </a>
-    <a href="https://www.linkedin.com/in/satyanarayana-sidda">
+    <a href="https://www.linkedin.com/in/satya-sidda">
       <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a>
     <a href="mailto:satyanarayana@example.com">
@@ -186,18 +186,20 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 </div>
 
----
+## <div align="center">🌐 Connect With Me</div>
 
 <div align="center">
 
-### 💬 Let's Connect & Build Together!
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satya-sidda)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/satyanarayana__sidda.39)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Satyanarayana-Sidda/)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:satyanarayana@example.com)
 
-*"The cloud is not just a technology — it's a mindset of infinite scalability."*
-
-[![GitHub Follow](https://img.shields.io/github/followers/Satyanarayana-Sidda?label=Follow&style=social)](https://github.com/Satyanarayana-Sidda)
-[![GitHub Stars](https://img.shields.io/github/stars/Satyanarayana-Sidda?affiliations=OWNER%2CCOLLABORATOR&style=social)](https://github.com/Satyanarayana-Sidda)
+</div>
 
 ---
+
+<div align="center">
 
 ⚡ *Automating the world, one pipeline at a time* ⚡
 

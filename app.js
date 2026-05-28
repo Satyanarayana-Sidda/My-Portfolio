@@ -309,9 +309,10 @@ Available commands:
                 case 'contact':
                     appendHistoryLine(`
 Social Contact Points:
-  - <span class="term-cyan">GitHub</span>   : https://github.com/Satyanarayana-Sidda
-  - <span class="term-cyan">LinkedIn</span> : https://www.linkedin.com/in/satyanarayana-sidda
-  - <span class="term-cyan">Email</span>    : satyanarayana@example.com
+  - <span class="term-cyan">GitHub</span>    : https://github.com/Satyanarayana-Sidda
+  - <span class="term-cyan">LinkedIn</span>  : https://www.linkedin.com/in/satya-sidda
+  - <span class="term-cyan">Instagram</span> : https://www.instagram.com/satyanarayana__sidda.39
+  - <span class="term-cyan">Email</span>     : satyanarayana@example.com
 `, true);
                     break;
                 case 'clear':
