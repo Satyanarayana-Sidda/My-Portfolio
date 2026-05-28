@@ -14,7 +14,7 @@
 <div align="center">
   <h1>Sidda Naga Satyanarayana</h1>
   <p align="center">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=Cloud+and+DevOps+Engineer;B.Tech+CSE+Student+at+LPU;AWS+Solutions+Architect;Automation+Specialist;Salesforce+Developer+Track" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3500&pause=1000&color=38bdf8&center=true&vCenter=true&width=600&lines=Aspiring+Cloud+%26+DevOps+Engineer;Computer+Science+Student+%7C+Cloud+%26+DevOps+Enthusiast;Linux+%E2%80%A2+Cloud+%E2%80%A2+DevOps;AWS+%7C+Linux+%7C+DevOps+Enthusiast;Cloud+Computing+%26+DevOps+Learner" alt="Typing SVG" />
   </p>
 
   <p>
