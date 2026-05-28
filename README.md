@@ -156,7 +156,7 @@ class SiddaNagaSatyanarayana:
 
 <div align="center">
 
-![GitHub 3D Contributions](https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/profile-3d-contrib/profile-night-view.svg)
+![GitHub 3D Contributions](https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/profile-3d-contrib/profile-gitblock.svg)
 
 </div>
 
