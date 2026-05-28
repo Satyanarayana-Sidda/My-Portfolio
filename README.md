@@ -64,7 +64,7 @@ class SiddaNagaSatyanarayana:
 ```
 
    </td>
-   <td width="45%" valign="middle" align="center">
+   <td width="50%" valign="middle" align="center">
      <img src="https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/assets/cinematic_developer.png" width="100%" alt="Developer Illustration" />
    </td>
  </tr>
