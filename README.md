@@ -69,18 +69,18 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## <div align="center">🛠️ Tech Stack & Tools</div>
 
-### ☁️ Cloud & Infrastructure
-<div>
+### <div align="center">☁️ Cloud & Infrastructure</div>
+<div align="center">
 
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 </div>
 
-### 🐳 DevOps & Containers
-<div>
+### <div align="center">🐳 DevOps & Containers</div>
+<div align="center">
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -92,8 +92,8 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 </div>
 
-### 💻 Languages & Frameworks
-<div>
+### <div align="center">💻 Languages & Frameworks</div>
+<div align="center">
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -103,8 +103,8 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 </div>
 
-### 🗄️ Databases & Monitoring
-<div>
+### <div align="center">🗄️ Databases & Monitoring</div>
+<div align="center">
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
