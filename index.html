@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyanarayana Sidda | Cloud & DevOps Engineer</title>
+    <meta name="description" content="Portfolio of Satyanarayana Sidda - Aspiring Cloud & DevOps Engineer specializing in AWS, Docker, Kubernetes, Terraform, and automated deployment architectures.">
+    <meta name="keywords" content="Satyanarayana Sidda, Cloud Engineer, DevOps, AWS, Terraform, Docker, Kubernetes, Hyderabad, Bangalore, LPU">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- GRID BACKGROUND DECORATION -->
+    <div class="grid-overlay"></div>
+
+    <!-- HEADER / NAVIGATION -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo" id="nav-logo">
+                <span>SATYA</span>.IO
+                <div class="logo-dot"></div>
+            </a>
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="active" id="nav-link-about">About</a></li>
+                    <li><a href="#terminal" id="nav-link-terminal">Terminal</a></li>
+                    <li><a href="#pipeline" id="nav-link-pipeline">CI/CD Pipeline</a></li>
+                    <li><a href="#skills" id="nav-link-skills">Skills</a></li>
+                    <li><a href="#certifications" id="nav-link-certs">Certifications</a></li>
+                    <li><a href="#contact" id="nav-link-contact">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="hero-tagline">DevOps & Infrastructure Automation</div>
+                <h1 class="hero-title">
+                    Satyanarayana Sidda<br>
+                    <span>Aspiring Cloud & DevOps Engineer</span>
+                </h1>
+                <p class="hero-description">
+                    B.Tech CSE student at Lovely Professional University, specializing in high-scalability cloud environments, container systems, infrastructure as code, and automated integration pipelines.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#pipeline" class="btn btn-primary" id="hero-btn-primary">
+                        <span>Run CI/CD Demo</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                    </a>
+                    <a href="#terminal" class="btn btn-secondary" id="hero-btn-secondary">
+                        <span>Open Terminal</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="4 17 10 11 4 5"></polyline>
+                            <line x1="12" y1="19" x2="20" y2="19"></line>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <canvas id="node-canvas"></canvas>
+                <div class="central-cloud-node" id="hero-interactive-node">
+                    <!-- Cloud Icon SVG -->
+                    <svg viewBox="0 0 24 24">
+                        <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
+                    </svg>
+                    <span>AWS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- METRICS / STATS BLOCK -->
+    <div class="container">
+        <div class="stats-strip glass-panel" id="about">
+            <div class="stat-card">
+                <div class="stat-number">150+</div>
+                <div class="stat-label">LeetCode Target</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">2028</div>
+                <div class="stat-label">Graduation Year</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">Ranger</div>
+                <div class="stat-label">Trailhead Status</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">IaC Automated</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- INTERACTIVE SHELL TERMINAL -->
+    <section id="terminal">
+        <div class="container">
+            <h2 class="section-title"><span>Interactive</span> Terminal Shell</h2>
+            <div class="terminal-layout">
+                <div class="terminal-window glass-panel" id="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-controls">
+                            <span class="control-dot close"></span>
+                            <span class="control-dot minimize"></span>
+                            <span class="control-dot maximize"></span>
+                        </div>
+                        <div class="terminal-title">satya@cloud-shell:~</div>
+                        <div style="width: 52px;"></div> <!-- Spacer for centering -->
+                    </div>
+                    <div class="terminal-body" id="term-body">
+                        <div class="terminal-log-line">Welcome to Satyanarayana Sidda's interactive terminal OS.</div>
+                        <div class="terminal-log-line term-muted">Type <span class="term-cyan">help</span> to view all available commands.</div>
+                        <div class="terminal-log-line" id="terminal-history"></div>
+                        <div class="terminal-prompt">
+                            <span>satya@cloud-shell:~$</span>
+                            <div class="terminal-input-container">
+                                <input type="text" class="terminal-input" id="term-input" autocomplete="off" autofocus spellcheck="false">
+                                <div class="custom-cursor" id="term-cursor"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INTERACTIVE DEVOPS CI/CD PIPELINE -->
+    <section id="pipeline">
+        <div class="container">
+            <h2 class="section-title"><span>DevOps</span> Integration Pipeline</h2>
+            <div class="pipeline-layout">
+                <div class="pipeline-controller">
+                    <div class="pipeline-info">
+                        <span class="step-label">Pipeline Status:</span>
+                        <div class="pipeline-status-badge" id="pipeline-status">
+                            <div class="status-indicator-dot"></div>
+                            <span id="pipeline-status-text">Idle</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary" id="run-pipeline-btn">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                        <span>Run CI/CD Pipeline</span>
+                    </button>
+                </div>
+
+                <div class="pipeline-board" id="pipeline-stages">
+                    <div class="pipeline-progress-track" id="pipeline-track"></div>
+                    
+                    <!-- STAGE 1 -->
+                    <div class="pipeline-step-node" id="step-0" data-stage="source">
+                        <div class="step-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <span class="step-label">Git Push</span>
+                        <span class="step-subtext">Commit Trigger</span>
+                    </div>
+
+                    <!-- STAGE 2 -->
+                    <div class="pipeline-step-node" id="step-1" data-stage="test">
+                        <div class="step-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="22 11.08 20 9 11 18 7 14 9 12.08"></polyline>
+                                <path d="M21 12a9 9 0 1 1-6.21-8.58"></path>
+                            </svg>
+                        </div>
+                        <span class="step-label">Lint & Test</span>
+                        <span class="step-subtext">Quality Gate</span>
+                    </div>
+
+                    <!-- STAGE 3 -->
+                    <div class="pipeline-step-node" id="step-2" data-stage="build">
+                        <div class="step-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                            </svg>
+                        </div>
+                        <span class="step-label">Docker Build</span>
+                        <span class="step-subtext">Image Package</span>
+                    </div>
+
+                    <!-- STAGE 4 -->
+                    <div class="pipeline-step-node" id="step-3" data-stage="deploy">
+                        <div class="step-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
+                            </svg>
+                        </div>
+                        <span class="step-label">AWS Deploy</span>
+                        <span class="step-subtext">Provision IaC</span>
+                    </div>
+
+                    <!-- STAGE 5 -->
+                    <div class="pipeline-step-node" id="step-4" data-stage="monitor">
+                        <div class="step-icon-wrapper">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                            </svg>
+                        </div>
+                        <span class="step-label">Health Check</span>
+                        <span class="step-subtext">Verify Live</span>
+                    </div>
+                </div>
+
+                <div class="pipeline-console-window">
+                    <div class="console-header">
+                        <div class="console-tab">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="4 17 10 11 4 5"></polyline>
+                                <line x1="12" y1="19" x2="20" y2="19"></line>
+                            </svg>
+                            <span>Deployment Console Output</span>
+                        </div>
+                    </div>
+                    <div class="console-body" id="console-output">
+                        <div class="term-muted">[SYSTEM] Console ready. Awaiting build triggers...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title"><span>Expertise</span> & Technologies</h2>
+            <div class="skills-grid">
+                
+                <!-- Cloud & Infrastructure -->
+                <div class="skill-category glass-panel" id="skills-cloud">
+                    <h3 class="category-title">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
+                        </svg>
+                        <span>Cloud Architecture</span>
+                    </h3>
+                    <div class="skill-badges">
+                        <div class="skill-badge badge-aws" id="skill-aws" title="Amazon Web Services Infrastructure & Provisioning">
+                            <span>AWS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DevOps & Containers -->
+                <div class="skill-category glass-panel" id="skills-devops">
+                    <h3 class="category-title">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                            <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                            <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                        </svg>
+                        <span>DevOps & Automation</span>
+                    </h3>
+                    <div class="skill-badges">
+                        <div class="skill-badge badge-docker" id="skill-docker">
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-badge badge-k8s" id="skill-kubernetes">
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="skill-badge badge-terraform" id="skill-terraform">
+                            <span>Terraform</span>
+                        </div>
+                        <div class="skill-badge" id="skill-githubactions">
+                            <span>GitHub Actions</span>
+                        </div>
+                        <div class="skill-badge" id="skill-ansible">
+                            <span>Ansible</span>
+                        </div>
+                        <div class="skill-badge" id="skill-jenkins">
+                            <span>Jenkins</span>
+                        </div>
+                        <div class="skill-badge" id="skill-linux">
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Languages & Frameworks -->
+                <div class="skill-category glass-panel" id="skills-languages">
+                    <h3 class="category-title">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                        <span>Development Stack</span>
+                    </h3>
+                    <div class="skill-badges">
+                        <div class="skill-badge" id="skill-java"><span>Java</span></div>
+                        <div class="skill-badge" id="skill-python"><span>Python</span></div>
+                        <div class="skill-badge" id="skill-javascript"><span>JavaScript</span></div>
+                        <div class="skill-badge" id="skill-cpp"><span>C++</span></div>
+                        <div class="skill-badge" id="skill-react"><span>React</span></div>
+                        <div class="skill-badge" id="skill-node"><span>Node.js</span></div>
+                        <div class="skill-badge" id="skill-bash"><span>Bash</span></div>
+                    </div>
+                </div>
+
+                <!-- Databases & Monitoring -->
+                <div class="skill-category glass-panel" id="skills-databases">
+                    <h3 class="category-title">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
+                        </svg>
+                        <span>Data & Performance</span>
+                    </h3>
+                    <div class="skill-badges">
+                        <div class="skill-badge" id="skill-postgres"><span>PostgreSQL</span></div>
+                        <div class="skill-badge" id="skill-supabase"><span>Supabase</span></div>
+                        <div class="skill-badge" id="skill-mysql"><span>MySQL</span></div>
+                        <div class="skill-badge" id="skill-redis"><span>Redis</span></div>
+                        <div class="skill-badge" id="skill-prometheus"><span>Prometheus</span></div>
+                        <div class="skill-badge" id="skill-grafana"><span>Grafana</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS & LEARNING TRACK -->
+    <section id="certifications">
+        <div class="container">
+            <h2 class="section-title"><span>Certifications</span> & Learning Track</h2>
+            <div class="tracks-timeline">
+                
+                <!-- Track 1: Salesforce Trailhead -->
+                <div class="track-card glass-panel" id="cert-trailhead">
+                    <div class="track-top">
+                        <div class="track-header">
+                            <span class="track-platform-badge platform-salesforce">Salesforce</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="platform-salesforce">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="track-title">Salesforce Developer</h3>
+                        <p class="track-status">Pursuing Ranger rank & Platform Developer tracks.</p>
+                    </div>
+                    <div class="track-progress-container">
+                        <div class="progress-bar-label">
+                            <span>Goal: Ranger status</span>
+                            <strong>85%</strong>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill fill-salesforce" style="width: 85%;"></div>
+                        </div>
+                        <div class="track-footer-meta">
+                            <span>Apex & LWC Tracks</span>
+                            <span>Futureforce Intern Target</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track 2: AWS Certifications -->
+                <div class="track-card glass-panel" id="cert-aws">
+                    <div class="track-top">
+                        <div class="track-header">
+                            <span class="track-platform-badge platform-aws">AWS</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="platform-aws">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="track-title">Cloud Practitioner</h3>
+                        <p class="track-status">Deep studying for official Architect & Cloud Practitoner exams.</p>
+                    </div>
+                    <div class="track-progress-container">
+                        <div class="progress-bar-label">
+                            <span>Study progress</span>
+                            <strong>70%</strong>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill fill-aws" style="width: 70%;"></div>
+                        </div>
+                        <div class="track-footer-meta">
+                            <span>Solutions Architect target</span>
+                            <span>Core Infrastructure focus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track 3: LeetCode Grind -->
+                <div class="track-card glass-panel" id="cert-leetcode">
+                    <div class="track-top">
+                        <div class="track-header">
+                            <span class="track-platform-badge platform-leetcode">LeetCode</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="platform-leetcode">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="track-title">150+ Target</h3>
+                        <p class="track-status">Daily problem solving to strengthen core logic & design algorithms.</p>
+                    </div>
+                    <div class="track-progress-container">
+                        <div class="progress-bar-label">
+                            <span>Problems solved</span>
+                            <strong>90%</strong>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill fill-leetcode" style="width: 90%;"></div>
+                        </div>
+                        <div class="track-footer-meta">
+                            <span>High Daily Streak</span>
+                            <span>Data Structures Expert</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Track 4: LPU Degree -->
+                <div class="track-card glass-panel" id="cert-lpu">
+                    <div class="track-top">
+                        <div class="track-header">
+                            <span class="track-platform-badge platform-lpu">Lovely Professional University</span>
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="platform-lpu">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="track-title">B.Tech CSE</h3>
+                        <p class="track-status">Currently in 2nd year of computer science. Graduating in 2028.</p>
+                    </div>
+                    <div class="track-progress-container">
+                        <div class="progress-bar-label">
+                            <span>Academic progress</span>
+                            <strong>40%</strong>
+                        </div>
+                        <div class="progress-bar-bg">
+                            <div class="progress-bar-fill fill-lpu" style="width: 40%;"></div>
+                        </div>
+                        <div class="track-footer-meta">
+                            <span>Hyderabad / Bangalore location</span>
+                            <span>Graduation Year 2028</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT / CONNECT SECTION -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title"><span>Let's Connect</span> & Build</h2>
+            <div class="contact-grid">
+                
+                <div class="contact-info-panel">
+                    <div class="contact-card glass-panel">
+                        <p class="contact-quote">"The cloud is not just a technology — it's a mindset of infinite scalability."</p>
+                        <p class="term-muted" style="margin-bottom: 2rem;">Always open for Cloud & DevOps internships, collaborative infrastructure builds, or deep architectural discussions.</p>
+                        
+                        <div class="contact-socials-list">
+                            <a href="https://github.com/Satyanarayana-Sidda" target="_blank" class="social-item" id="contact-link-github">
+                                <div class="social-item-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                    </svg>
+                                </div>
+                                <span>GitHub / Satyanarayana-Sidda</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/satyanarayana-sidda" target="_blank" class="social-item" id="contact-link-linkedin">
+                                <div class="social-item-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </div>
+                                <span>LinkedIn / satyanarayana-sidda</span>
+                            </a>
+                            <a href="mailto:satyanarayana@example.com" class="social-item" id="contact-link-email">
+                                <div class="social-item-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <span>satyanarayana@example.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <form class="contact-form glass-panel" id="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="contact-name">Name</label>
+                        <input type="text" id="contact-name" class="form-input" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-email">Email</label>
+                        <input type="email" id="contact-email" class="form-input" placeholder="your.email@domain.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Message</label>
+                        <textarea id="contact-message" class="form-input" placeholder="Let's build a new automated cluster..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary form-submit-btn" id="contact-submit-btn">
+                        <span>Send Message</span>
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SUCCESS TOAST NOTIFICATION -->
+    <div class="toast-notification" id="form-toast">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="toast-icon">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+        </svg>
+        <span>Message transmitted successfully!</span>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-text">
+                &copy; 2026 Satyanarayana Sidda. All rights reserved.
+            </div>
+            <div class="footer-text">
+                Designed & Built with <span class="footer-heart">♥</span> and deployed on <strong class="term-aws" style="text-shadow: 0 0 8px var(--accent-aws-glow);">AWS</strong>.
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
