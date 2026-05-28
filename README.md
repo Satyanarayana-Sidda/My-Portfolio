@@ -145,7 +145,7 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 <div align="center">
 
-[![Satya's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Satyanarayana-Sidda&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+![GitHub 3D Contributions](https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/profile-3d-contrib/profile-night-view.svg)
 
 </div>
 
