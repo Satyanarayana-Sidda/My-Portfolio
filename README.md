@@ -16,27 +16,17 @@
   <h3>☁️ Cloud & DevOps Engineer · B.Tech CSE @ LPU · AWS Architect · Automation Enthusiast</h3>
 
   <p>
-    <a href="https://github.com/Satyanarayana-Sidda">
-      <img src="https://img.shields.io/badge/GitHub-Satyanarayana--Sidda-181717?style=for-the-badge&logo=github&logoColor=white"/>
-    </a>
     <a href="https://www.linkedin.com/in/satya-sidda">
-      <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
-    <a href="mailto:satyanarayana@example.com">
-      <img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+    <a href="https://github.com/Satyanarayana-Sidda?tab=repositories">
+      <img src="https://img.shields.io/github/repos/count/Satyanarayana-Sidda?style=for-the-badge&color=181717&logo=github&logoColor=white&label=REPOS" alt="Repos"/>
     </a>
-    <a href="https://trailblazer.salesforce.com">
-      <img src="https://img.shields.io/badge/Trailhead-Ranger%20Track-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white"/>
-    </a>
-  </p>
-
-  <p>
+    <img src="https://komarev.com/ghpvc/?username=Satyanarayana-Sidda&color=0078d4&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
     <a href="https://satyanarayana-sidda.github.io/Satyanarayana-Sidda/">
-      <img src="https://img.shields.io/badge/Interactive_Portfolio-Live_Demo-0ea5e9?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+      <img src="https://img.shields.io/badge/Portfolio_Demo-0ea5e9?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Portfolio Demo"/>
     </a>
   </p>
-
-  <img src="https://komarev.com/ghpvc/?username=Satyanarayana-Sidda&color=0078d4&style=for-the-badge&label=PROFILE+VIEWS" />
 </div>
 
 ---
