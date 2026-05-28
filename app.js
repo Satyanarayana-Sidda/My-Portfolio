@@ -282,11 +282,11 @@ Available commands:
                 case 'skills':
                     appendHistoryLine(`
 <span class="term-aws">Cloud & Infrastructure:</span>
-  - AWS Services & General Systems
+  - AWS & Microsoft Azure Services
 <span class="term-cyan">DevOps & Automation:</span>
   - Docker, Kubernetes, Terraform, GitHub Actions, Ansible, Jenkins, Linux
 <span class="term-purple">Development Stack:</span>
-  - Java, Python, JavaScript, C++, React, Node.js, Bash
+  - Java, Python, JavaScript, C++, Bash
 <span class="term-green">Data & Monitoring:</span>
   - PostgreSQL, Supabase, MySQL, Redis, Prometheus, Grafana
 `, true);
@@ -408,15 +408,16 @@ Social Contact Points:
                 element: document.getElementById('step-3'),
                 percentage: '85%',
                 logs: [
-                    '[STAGE 3 - PROVISION AWS RESOURCES]',
+                    '[STAGE 3 - PROVISION CLOUD RESOURCES]',
                     'Initializing infrastructure provisioning engine...',
                     'Evaluating Terraform configuration variables...',
                     'Applying secure cloud architecture rules...',
-                    'Deployment targeted entirely to: AWS Cloud',
+                    'Deployment targeted to: AWS & Azure (Multi-Cloud)',
                     'Provisioning AWS virtual server nodes... OK',
-                    'Configuring AWS load balancing resources... OK',
-                    'Syncing files to secure AWS cloud storage... OK',
-                    'Deployment package completed on AWS securely.'
+                    'Provisioning Azure resource groups... OK',
+                    'Deploying load balancing resources... AWS (OK) | Azure (OK)',
+                    'Syncing replication stores... OK',
+                    'Deployment completed on AWS & Azure securely.'
                 ],
                 delay: 3500
             },
@@ -426,11 +427,11 @@ Social Contact Points:
                 logs: [
                     '[STAGE 4 - SECURITY & HEALTH ASSURANCE]',
                     'Executing automated deployment health audit...',
-                    'Request: GET https://aws-gateway.satya.io/health',
+                    'Request: GET https://cloud-gateway.satya.io/health',
                     'Response Status: 200 OK (Connection time: 42ms)',
                     'Running system threat analysis... Clean.',
                     'Production audit complete.',
-                    '[SYSTEM] Deployment process finished successfully! App is active on AWS.'
+                    '[SYSTEM] Deployment process finished successfully! App is active on AWS & Azure.'
                 ],
                 delay: 2000
             }
