@@ -12,7 +12,7 @@
 </div>
 
 <div align="center">
-  <h1>Satyanarayana Sidda</h1>
+  <h1>Sidda Naga Satyanarayana</h1>
   <h3>☁️ Cloud & DevOps Engineer · B.Tech CSE @ LPU · AWS Architect · Automation Enthusiast</h3>
 
   <p>
@@ -44,7 +44,7 @@
 ## 🌩️ About Me
 
 ```yaml
-name: Satyanarayana Sidda
+name: Sidda Naga Satyanarayana
 role: Cloud & DevOps Engineer (Aspiring)
 university: Lovely Professional University
 degree: B.Tech Computer Science Engineering
