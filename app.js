@@ -267,7 +267,7 @@ Available commands:
                     break;
                 case 'about':
                     appendHistoryLine(`
-<span class="term-purple">name:</span> Sidda Naga Satyanarayana
+<span class="term-purple">name:</span> Satyanarayana Sidda
 <span class="term-purple">role:</span> Cloud & DevOps Engineer (Aspiring)
 <span class="term-purple">university:</span> Lovely Professional University (B.Tech CSE)
 <span class="term-purple">graduation:</span> 2028
@@ -368,7 +368,7 @@ Social Contact Points:
                     'Initializing connection to Git repository...',
                     'Fetching updates from main branch...',
                     'Event webhook captured: commit [feat: main-infra-deployment]',
-                    'Author: Sidda Naga Satyanarayana <satya@lpu.edu>',
+                    'Author: Satyanarayana Sidda <satya@lpu.edu>',
                     'Source code validation: PASSED.'
                 ],
                 delay: 2000
