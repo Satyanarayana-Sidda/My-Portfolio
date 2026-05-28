@@ -13,7 +13,9 @@
 
 <div align="center">
   <h1>Sidda Naga Satyanarayana</h1>
-  <h3>☁️ Cloud & DevOps Engineer · B.Tech CSE @ LPU · AWS Architect · Automation Enthusiast</h3>
+  <p align="center">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=0ea5e9&center=true&vCenter=true&width=600&lines=Cloud+%26+DevOps+Engineer+☁️;B.Tech+CSE+Student+%40+LPU+🎓;AWS+Solutions+Architect+🌩️;Automation+Enthusiast+⚡;Salesforce+Futureforce+Aspirant+🎯" alt="Typing SVG" />
+  </p>
 
   <p>
     <a href="https://www.linkedin.com/in/satya-sidda">
