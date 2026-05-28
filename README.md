@@ -17,14 +17,14 @@
 
   <p>
     <a href="https://www.linkedin.com/in/satya-sidda">
-      <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
     <a href="https://github.com/Satyanarayana-Sidda?tab=repositories">
-      <img src="https://img.shields.io/badge/Repos-7-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
+      <img src="https://img.shields.io/badge/Repos-7-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
     </a>
-    <img src="https://komarev.com/ghpvc/?username=Satyanarayana-Sidda&color=0078d4&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
+    <img src="https://komarev.com/ghpvc/?username=Satyanarayana-Sidda&color=FF9900&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
     <a href="https://satyanarayana-sidda.github.io/Satyanarayana-Sidda/">
-      <img src="https://img.shields.io/badge/Portfolio_Demo-0ea5e9?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Portfolio Demo"/>
+      <img src="https://img.shields.io/badge/Portfolio_Demo-a855f7?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Portfolio Demo"/>
     </a>
   </p>
 </div>
