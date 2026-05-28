@@ -151,9 +151,7 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 ---
 
-## <div align="center">🌱 Currently Learning</div>
-
-<div align="center">
+## 🌱 Currently Learning
 
 🔹 **Kubernetes Advanced Patterns** (Helm, Operators)<br>
 🔹 **AWS Solutions Architect** – Associate<br>
@@ -161,33 +159,23 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 🔹 **Distributed Systems** (Consensus, CAP Theorem)<br>
 🔹 **System Design** (HLD + LLD for interviews)
 
-</div>
-
 ---
 
-## <div align="center">🤝 Open To</div>
-
-<div align="center">
+## 🤝 Open To
 
 💼 **Cloud/DevOps Internships** (Salesforce Futureforce, AWS, GCP)<br>
 🛠️ **Open Source Contributions** in Cloud tooling & IaC<br>
 🧠 **Collaborative Projects** in AI + Cloud integration<br>
 📬 **Mentorship & Tech Discussions**
 
-</div>
-
 ---
 
-## <div align="center">🌐 Connect With Me</div>
-
-<div align="center">
+## 🌐 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/satya-sidda)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/satyanarayana__sidda.39)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Satyanarayana-Sidda/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:satyanarayana@example.com)
-
-</div>
 
 ---
 
