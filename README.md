@@ -117,7 +117,7 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 ---
 
-## 📊 GitHub Stats
+## <div align="center">📊 GitHub Stats</div>
 
 <div align="center">
 
@@ -134,7 +134,9 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 ---
 
-## 🏆 Certifications & Learning
+## <div align="center">🏆 Certifications & Learning</div>
+
+<div align="center">
 
 | Platform | Progress | Badge |
 |----------|----------|-------|
@@ -143,9 +145,11 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 | **LeetCode** | 150+ Target 🔥 | ![LeetCode](https://img.shields.io/badge/LeetCode-Active-FFA116?style=flat-square&logo=leetcode) |
 | **B.Tech CSE @ LPU** | 2nd Year · 2028 🎓 | ![LPU](https://img.shields.io/badge/LPU-CSE-6C3483?style=flat-square) |
 
+</div>
+
 ---
 
-## 📈 Contribution Activity
+## <div align="center">📈 Contribution Activity</div>
 
 <div align="center">
 
@@ -155,7 +159,9 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 ---
 
-## 🌱 Currently Learning
+## <div align="center">🌱 Currently Learning</div>
+
+<div align="center">
 
 ```
 🔹 Kubernetes Advanced Patterns (Helm, Operators)
@@ -165,14 +171,20 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 🔹 System Design (HLD + LLD for interviews)
 ```
 
+</div>
+
 ---
 
-## 🤝 Open To
+## <div align="center">🤝 Open To</div>
+
+<div align="center">
 
 - 💼 **Cloud/DevOps Internships** (Salesforce Futureforce, AWS, GCP)
 - 🛠️ **Open Source Contributions** in Cloud tooling & IaC
 - 🧠 **Collaborative Projects** in AI + Cloud integration
 - 📬 **Mentorship & Tech Discussions**
+
+</div>
 
 ---
 
