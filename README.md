@@ -35,29 +35,40 @@
 
 ## 🌩️ About Me
 
-```yaml
-name: Sidda Naga Satyanarayana
-role: Cloud & DevOps Engineer (Aspiring)
-university: Lovely Professional University
-degree: B.Tech Computer Science Engineering
-graduation: 2028
-location: Hyderabad / Bangalore, India
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="55%" valign="top">
 
-focus_areas:
-  - Cloud Architecture (AWS)
-  - DevOps & CI/CD Pipelines
-  - Infrastructure as Code (IaC)
-  - Containerization & Orchestration
-  - AI/ML Integration on Cloud
+```python
+class SiddaNagaSatyanarayana:
+    def __init__(self):
+        self.name = "Sidda Naga Satyanarayana"
+        self.role = "Cloud & DevOps Engineer (Aspiring)"
+        self.university = "Lovely Professional University"
+        self.location = "Hyderabad / Bangalore, India"
+        self.core_stack = ["AWS", "Azure", "Docker", "Kubernetes", "Terraform", "Linux"]
 
-currently:
-  - Designing production-grade infrastructure pipelines
-  - Pursuing Salesforce Futureforce Internship
-  - Grinding LeetCode (Target: 150+ problems)
-  - Completing Salesforce Trailhead Ranger rank
+    def get_focus_areas(self):
+        return [
+            "Cloud Architecture (AWS & Azure)",
+            "Infrastructure as Code & Pipelines",
+            "Containerization & Orchestration"
+        ]
 
-fun_fact: I turn infrastructure problems into automated solutions ⚡
+    def current_work(self):
+        return {
+            "internship": "Salesforce Futureforce Track",
+            "learning": "AWS Solutions Architect & Advanced Kubernetes",
+            "fun_fact": "Turning complex infra problems into single-click automations ⚡"
+        }
 ```
+
+   </td>
+   <td width="45%" valign="middle" align="center">
+     <img src="https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/assets/developer_illustration.png" width="100%" alt="Developer Illustration" />
+   </td>
+ </tr>
+</table>
 
 ---
 
