@@ -20,7 +20,7 @@
       <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
     </a>
     <a href="https://github.com/Satyanarayana-Sidda?tab=repositories">
-      <img src="https://img.shields.io/github/repos/count/Satyanarayana-Sidda?style=for-the-badge&color=181717&logo=github&logoColor=white&label=REPOS" alt="Repos"/>
+      <img src="https://img.shields.io/badge/Repos-7-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
     </a>
     <img src="https://komarev.com/ghpvc/?username=Satyanarayana-Sidda&color=0078d4&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
     <a href="https://satyanarayana-sidda.github.io/Satyanarayana-Sidda/">
