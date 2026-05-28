@@ -155,13 +155,11 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 <div align="center">
 
-```
-🔹 Kubernetes Advanced Patterns (Helm, Operators)
-🔹 AWS Solutions Architect – Associate
-🔹 Salesforce Platform Development (Apex, LWC)
-🔹 Distributed Systems (Consensus, CAP Theorem)
-🔹 System Design (HLD + LLD for interviews)
-```
+🔹 **Kubernetes Advanced Patterns** (Helm, Operators)<br>
+🔹 **AWS Solutions Architect** – Associate<br>
+🔹 **Salesforce Platform Development** (Apex, LWC)<br>
+🔹 **Distributed Systems** (Consensus, CAP Theorem)<br>
+🔹 **System Design** (HLD + LLD for interviews)
 
 </div>
 
@@ -171,12 +169,14 @@ fun_fact: I turn infrastructure problems into automated solutions ⚡
 
 <div align="center">
 
-- 💼 **Cloud/DevOps Internships** (Salesforce Futureforce, AWS, GCP)
-- 🛠️ **Open Source Contributions** in Cloud tooling & IaC
-- 🧠 **Collaborative Projects** in AI + Cloud integration
-- 📬 **Mentorship & Tech Discussions**
+💼 **Cloud/DevOps Internships** (Salesforce Futureforce, AWS, GCP)<br>
+🛠️ **Open Source Contributions** in Cloud tooling & IaC<br>
+🧠 **Collaborative Projects** in AI + Cloud integration<br>
+📬 **Mentorship & Tech Discussions**
 
 </div>
+
+---
 
 ## <div align="center">🌐 Connect With Me</div>
 
