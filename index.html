@@ -3,563 +3,853 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
     <title>Sidda Naga Satyanarayana | Cloud & DevOps Engineer</title>
-    <meta name="description" content="Portfolio of Sidda Naga Satyanarayana - Aspiring Cloud & DevOps Engineer specializing in AWS, Docker, Kubernetes, Terraform, and automated deployment architectures.">
-    <meta name="keywords" content="Sidda Naga Satyanarayana, Cloud Engineer, DevOps, AWS, Terraform, Docker, Kubernetes, Hyderabad, Bangalore, LPU">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Portfolio of Sidda Naga Satyanarayana - Aspiring Cloud & DevOps Engineer specializing in AWS architectures, Docker containerization, CI/CD pipelines, and infrastructure automation.">
+    <meta name="keywords" content="Sidda Naga Satyanarayana, Cloud Engineer, DevOps, AWS, Terraform, Docker, Kubernetes, Systems Automation, LPU, Hyderabad, Bangalore">
+    <meta name="author" content="Sidda Naga Satyanarayana">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Grotesk:wght@300;400;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    
+    <!-- CSS Stylesheet with Cache Buster -->
+    <link rel="stylesheet" href="styles.css?v=5.1">
 </head>
 <body>
+    <!-- CUSTOM FUTURISTIC CURSOR -->
+    <div id="cur"></div>
+    <div id="cur2"></div>
+    
+    <!-- HIGH-TECH SHADER GRIDS -->
+    <div id="gridOvl"></div>
 
-    <!-- GRID BACKGROUND DECORATION -->
-    <div class="grid-overlay"></div>
-
-    <!-- HEADER / NAVIGATION -->
-    <header id="header">
-        <div class="container nav-container">
-            <a href="#" class="logo" id="nav-logo">
-                <span>SATYA</span>.IO
-                <div class="logo-dot"></div>
-            </a>
-            <nav id="nav-menu">
-                <ul>
-                    <li><a href="#about" class="active" id="nav-link-about">About</a></li>
-                    <li><a href="#terminal" id="nav-link-terminal">Terminal</a></li>
-                    <li><a href="#pipeline" id="nav-link-pipeline">CI/CD Pipeline</a></li>
-                    <li><a href="#skills" id="nav-link-skills">Skills</a></li>
-                    <li><a href="#certifications" id="nav-link-certs">Certifications</a></li>
-                    <li><a href="#contact" id="nav-link-contact">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle navigation">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                </svg>
-            </button>
+    <!-- PRELOADER INITIALIZATION SCREEN -->
+    <div id="loader">
+        <!-- 3D Holographic Loading Canvas -->
+        <canvas id="loaderCanvas"></canvas>
+        <div class="lLogo">SNS</div>
+        <div class="lBarW">
+            <div class="lBar" id="lBar"></div>
         </div>
-    </header>
+        <div class="lTxt" id="lTxt">INITIALIZING SYSTEMS...</div>
+    </div>
+
+    <!-- MAIN WEBGL CUSTOM SHADER CANVAS -->
+    <canvas id="glCanvas"></canvas>
+
+    <!-- FLOATING SYS HUD CONSOLE -->
+    <div class="hud" id="hTL">SYS.ONLINE<br>PORTFOLIO.V3</div>
+    <div class="hud" id="hTR">CLOUD.DEVOPS<br>SNS.2026</div>
+    <div class="hud" id="hBL">INITIALIZING...</div>
+    <div class="hud" id="hBR">LPU.CSE.2028<br>INDIA.HYD</div>
+
+    <!-- NAVIGATION HEADER -->
+    <nav>
+        <div class="nLogo">S·N·S</div>
+        <ul class="nLinks">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#scene3d">Architecture</a></li>
+            <li><a href="#tline">Journey</a></li>
+            <li><a href="#certifications">Certs</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
     <!-- HERO SECTION -->
     <section id="hero">
-        <div class="container hero-grid">
-            <div class="hero-content">
-                <div class="hero-tagline">DevOps & Infrastructure Automation</div>
-                <h1 class="hero-title">
-                    Sidda Naga Satyanarayana<br>
-                    <span>Aspiring Cloud & DevOps Engineer</span>
-                </h1>
-                <p class="hero-description">
-                    B.Tech CSE student at Lovely Professional University, specializing in high-scalability cloud environments, container systems, infrastructure as code, and automated integration pipelines.
-                </p>
-                <div class="hero-buttons">
-                    <a href="#pipeline" class="btn btn-primary" id="hero-btn-primary">
-                        <span>Run CI/CD Demo</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                        </svg>
-                    </a>
-                    <a href="#terminal" class="btn btn-secondary" id="hero-btn-secondary">
-                        <span>Open Terminal</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="4 17 10 11 4 5"></polyline>
-                            <line x1="12" y1="19" x2="20" y2="19"></line>
-                        </svg>
-                    </a>
-                </div>
+        <div class="brk tl"></div>
+        <div class="brk tr"></div>
+        <div class="brk bl"></div>
+        <div class="brk br"></div>
+        
+        <!-- Interactive Node Proximity Canvas -->
+        <canvas id="hC"></canvas>
+        <!-- 3D Hero Floating Crystal Scene -->
+        <canvas id="heroScene"></canvas>
+        <!-- Holographic floating data panels -->
+        <div class="holo-panel hp1" aria-hidden="true">
+            <div class="holo-panel-inner">
+                <div class="hp-label">AWS.ARCHITECT</div>
+                <div class="hp-bar"><div class="hp-fill" style="width:78%"></div></div>
+                <div class="hp-label">DEVOPS.PIPELINE</div>
+                <div class="hp-bar"><div class="hp-fill" style="width:72%"></div></div>
+                <div class="hp-label">CLOUD.INFRA</div>
+                <div class="hp-bar"><div class="hp-fill hp-fill2" style="width:85%"></div></div>
             </div>
-            <div class="hero-visual">
-                <canvas id="node-canvas"></canvas>
-                <div class="central-cloud-node" id="hero-interactive-node">
-                    <!-- Cloud Icon SVG -->
-                    <svg viewBox="0 0 24 24">
-                        <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
-                    </svg>
-                    <span>AWS</span>
-                </div>
+        </div>
+        <div class="holo-panel hp2" aria-hidden="true">
+            <div class="holo-panel-inner">
+                <div class="hp-label">SYS.STATUS: ONLINE</div>
+                <div class="hp-val">● SNS.PORTFOLIO.V5</div>
+                <div class="hp-val" style="color:var(--c4)">● CLOUD.READY</div>
+                <div class="hp-val" style="color:var(--c2)">● LPU.CSE.2028</div>
             </div>
+        </div>
+        <!-- Orbiting 3D rings (CSS) -->
+        <div class="hero-orbit-ring ring1" aria-hidden="true"></div>
+        <div class="hero-orbit-ring ring2" aria-hidden="true"></div>
+        <div class="hero-orbit-ring ring3" aria-hidden="true"></div>
+        
+        <div class="hero-inner">
+            <div class="hPre">// Portfolio 2026 — Cloud Engineering</div>
+            <h1 class="hName">
+                <span class="ln1">Sidda Naga</span>
+                <span class="ln2">Satyanarayana</span>
+            </h1>
+            <div class="hRole" id="typed"></div>
+            <p class="hSub">Building resilient cloud architectures and automating the future — one pipeline at a time.</p>
+            <div class="hCta">
+                <a href="#projects" class="btn3 p">View Projects</a>
+                <a href="#contact" class="btn3 g">Get In Touch</a>
+                <a href="https://github.com/Satyanarayana-Sidda" target="_blank" rel="noopener noreferrer" class="btn3 g">GitHub</a>
+            </div>
+        </div>
+        <div class="scrollI">
+            <span>Scroll</span>
+            <div class="scrollL"></div>
         </div>
     </section>
 
-    <!-- METRICS / STATS BLOCK -->
-    <div class="container">
-        <div class="stats-strip glass-panel" id="about">
-            <div class="stat-card">
-                <div class="stat-number">150+</div>
-                <div class="stat-label">LeetCode Target</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">2028</div>
-                <div class="stat-label">Graduation Year</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">Ranger</div>
-                <div class="stat-label">Trailhead Status</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-number">100%</div>
-                <div class="stat-label">IaC Automated</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- INTERACTIVE SHELL TERMINAL -->
-    <section id="terminal">
-        <div class="container">
-            <h2 class="section-title"><span>Interactive</span> Terminal Shell</h2>
-            <div class="terminal-layout">
-                <div class="terminal-window glass-panel" id="terminal-window">
-                    <div class="terminal-header">
-                        <div class="terminal-controls">
-                            <span class="control-dot close"></span>
-                            <span class="control-dot minimize"></span>
-                            <span class="control-dot maximize"></span>
-                        </div>
-                        <div class="terminal-title">satya@cloud-shell:~</div>
-                        <div style="width: 52px;"></div> <!-- Spacer for centering -->
-                    </div>
-                    <div class="terminal-body" id="term-body">
-                        <div class="terminal-log-line">Welcome to Sidda Naga Satyanarayana's interactive terminal OS.</div>
-                        <div class="terminal-log-line term-muted">Type <span class="term-cyan">help</span> to view all available commands.</div>
-                        <div class="terminal-log-line" id="terminal-history"></div>
-                        <div class="terminal-prompt">
-                            <span>satya@cloud-shell:~$</span>
-                            <div class="terminal-input-container">
-                                <input type="text" class="terminal-input" id="term-input" autocomplete="off" autofocus spellcheck="false">
-                                <div class="custom-cursor" id="term-cursor"></div>
-                            </div>
-                        </div>
-                    </div>
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="aG">
+            <div class="aViz rv">
+                <div class="aRO"></div>
+                <div class="aRI"></div>
+                <!-- 3D effects canvas (rings, shield, orbits) -->
+                <canvas id="aC" width="360" height="360"></canvas>
+                <!-- Profile photo — real HTML img, always visible -->
+                <div class="profile-photo-wrap" id="profileWrap">
+                    <img src="assets/profile.jpg" alt="Sidda Naga Satyanarayana" class="profile-photo-img" id="profilePhotoEl">
+                    <!-- CSS scan line overlay -->
+                    <div class="profile-scan-line" id="scanLine"></div>
+                    <!-- Corner HUD brackets -->
+                    <div class="phud phud-tl"></div>
+                    <div class="phud phud-tr"></div>
+                    <div class="phud phud-bl"></div>
+                    <div class="phud phud-br"></div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- INTERACTIVE DEVOPS CI/CD PIPELINE -->
-    <section id="pipeline">
-        <div class="container">
-            <h2 class="section-title"><span>DevOps</span> Integration Pipeline</h2>
-            <div class="pipeline-layout">
-                <div class="pipeline-controller">
-                    <div class="pipeline-info">
-                        <span class="step-label">Pipeline Status:</span>
-                        <div class="pipeline-status-badge" id="pipeline-status">
-                            <div class="status-indicator-dot"></div>
-                            <span id="pipeline-status-text">Idle</span>
-                        </div>
-                    </div>
-                    <button class="btn btn-primary" id="run-pipeline-btn">
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                        </svg>
-                        <span>Run CI/CD Pipeline</span>
-                    </button>
+            <div class="aInfo rv">
+                <h3>Who I Am</h3>
+                <p>B.Tech CSE student at Lovely Professional University (2028), specialising in Cloud and DevOps. I build production-grade systems — from AWS architectures with ML integration to real-time apps deployed on Vercel.</p>
+                <div class="facts">
+                    <div class="fact">☁️ &nbsp; Cloud-first thinker — designing AWS architectures for real-world problems</div>
+                    <div class="fact">⚙️ &nbsp; Automation zealot — if I do it twice, I script it</div>
+                    <div class="fact">🎯 &nbsp; Targeting Microsoft Azure Certifications — Solutions Architect in progress</div>
+                    <div class="fact">🔬 &nbsp; Building portfolio projects for top-tier tech internships</div>
                 </div>
-
-                <div class="pipeline-board" id="pipeline-stages">
-                    <div class="pipeline-progress-track" id="pipeline-track"></div>
-                    
-                    <!-- STAGE 1 -->
-                    <div class="pipeline-step-node" id="step-0" data-stage="source">
-                        <div class="step-icon-wrapper">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
-                            </svg>
-                        </div>
-                        <span class="step-label">Git Push</span>
-                        <span class="step-subtext">Commit Trigger</span>
+                <div class="stRow">
+                    <div class="stBox gc">
+                        <span class="stN">4+</span>
+                        <span class="stL">Languages</span>
                     </div>
-
-                    <!-- STAGE 2 -->
-                    <div class="pipeline-step-node" id="step-1" data-stage="test">
-                        <div class="step-icon-wrapper">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="22 11.08 20 9 11 18 7 14 9 12.08"></polyline>
-                                <path d="M21 12a9 9 0 1 1-6.21-8.58"></path>
-                            </svg>
-                        </div>
-                        <span class="step-label">Lint & Test</span>
-                        <span class="step-subtext">Quality Gate</span>
+                    <div class="stBox gc">
+                        <span class="stN">3+</span>
+                        <span class="stL">Projects</span>
                     </div>
-
-                    <!-- STAGE 3 -->
-                    <div class="pipeline-step-node" id="step-2" data-stage="build">
-                        <div class="step-icon-wrapper">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
-                                <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
-                                <line x1="12" y1="22.08" x2="12" y2="12"></line>
-                            </svg>
-                        </div>
-                        <span class="step-label">Docker Build</span>
-                        <span class="step-subtext">Image Package</span>
-                    </div>
-
-                    <!-- STAGE 4 -->
-                    <div class="pipeline-step-node" id="step-3" data-stage="deploy">
-                        <div class="step-icon-wrapper">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
-                            </svg>
-                        </div>
-                        <span class="step-label">Cloud Deploy</span>
-                        <span class="step-subtext">Provision IaC</span>
-                    </div>
-
-                    <!-- STAGE 5 -->
-                    <div class="pipeline-step-node" id="step-4" data-stage="monitor">
-                        <div class="step-icon-wrapper">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                            </svg>
-                        </div>
-                        <span class="step-label">Health Check</span>
-                        <span class="step-subtext">Verify Live</span>
-                    </div>
-                </div>
-
-                <div class="pipeline-console-window">
-                    <div class="console-header">
-                        <div class="console-tab">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                                <polyline points="4 17 10 11 4 5"></polyline>
-                                <line x1="12" y1="19" x2="20" y2="19"></line>
-                            </svg>
-                            <span>Deployment Console Output</span>
-                        </div>
-                    </div>
-                    <div class="console-body" id="console-output">
-                        <div class="term-muted">[SYSTEM] Console ready. Awaiting build triggers...</div>
+                    <div class="stBox gc">
+                        <span class="stN">2028</span>
+                        <span class="stL">Graduating</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- SKILLS SECTION -->
+    <!-- SKILLS ARSENAL -->
     <section id="skills">
-        <div class="container">
-            <h2 class="section-title"><span>Expertise</span> & Technologies</h2>
-            <div class="skills-grid">
-                
-                <!-- Cloud & Infrastructure -->
-                <div class="skill-category glass-panel" id="skills-cloud">
-                    <h3 class="category-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
-                        </svg>
-                        <span>Cloud Architecture</span>
-                    </h3>
-                    <div class="skill-badges">
-                        <div class="skill-badge badge-aws" id="skill-aws" title="Amazon Web Services Infrastructure & Provisioning">
-                            <span>AWS</span>
+        <!-- 3D skill-sphere background -->
+        <canvas id="skillCanvas"></canvas>
+        <div class="sHdr rv">
+            <span class="sNum">02 // Skills</span>
+            <h2 class="sTitle">Tech Arsenal</h2>
+            <div class="sDvd"></div>
+        </div>
+        <div class="skW cyber-skills-layout rv">
+            <!-- Left Panel: Category HUD Selector -->
+            <div class="sk-panel left-panel gc">
+                <div class="panel-hdr">
+                    <span class="panel-tag">// Category Selector</span>
+                    <h3>SYSTEM CORES</h3>
+                </div>
+                <div class="cat-list">
+                    <div class="cat-item active" data-cat="languages">
+                        <div class="cat-info">
+                            <span class="cat-num">01</span>
+                            <span class="cat-name">Languages</span>
                         </div>
-                        <div class="skill-badge badge-azure" id="skill-azure" title="Microsoft Azure Cloud Integration">
-                            <span>Azure</span>
+                        <div class="cat-bar"></div>
+                    </div>
+                    <div class="cat-item" data-cat="devops">
+                        <div class="cat-info">
+                            <span class="cat-num">02</span>
+                            <span class="cat-name">Cloud & DevOps</span>
                         </div>
+                        <div class="cat-bar"></div>
+                    </div>
+                    <div class="cat-item" data-cat="data">
+                        <div class="cat-info">
+                            <span class="cat-num">03</span>
+                            <span class="cat-name">Data & Tools</span>
+                        </div>
+                        <div class="cat-bar"></div>
                     </div>
                 </div>
+                <div class="panel-footer">
+                    <span class="status-indicator"></span>
+                    <span class="status-text">CORES ONLINE</span>
+                </div>
+            </div>
 
-                <!-- DevOps & Containers -->
-                <div class="skill-category glass-panel" id="skills-devops">
-                    <h3 class="category-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
-                            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
-                            <line x1="6" y1="6" x2="6.01" y2="6"></line>
-                            <line x1="6" y1="18" x2="6.01" y2="18"></line>
-                        </svg>
-                        <span>DevOps & Automation</span>
-                    </h3>
-                    <div class="skill-badges">
-                        <div class="skill-badge badge-docker" id="skill-docker">
-                            <span>Docker</span>
-                        </div>
-                        <div class="skill-badge badge-k8s" id="skill-kubernetes">
-                            <span>Kubernetes</span>
-                        </div>
-                        <div class="skill-badge badge-terraform" id="skill-terraform">
-                            <span>Terraform</span>
-                        </div>
-                        <div class="skill-badge" id="skill-githubactions">
-                            <span>GitHub Actions</span>
-                        </div>
-                        <div class="skill-badge" id="skill-ansible">
-                            <span>Ansible</span>
-                        </div>
-                        <div class="skill-badge" id="skill-jenkins">
-                            <span>Jenkins</span>
-                        </div>
-                        <div class="skill-badge" id="skill-linux">
-                            <span>Linux</span>
+            <!-- Center Panel: The 3D Projection Canvas -->
+            <div class="sk-panel center-panel gc">
+                <div class="canvas-hdr">
+                    <span class="canvas-tag">// 3D Holo-Projection</span>
+                    <h3>TECH ARSENAL CORE</h3>
+                </div>
+                <!-- Mini canvas inside the card to keep rendering isolated and visually impactful -->
+                <div class="holo-stage">
+                    <canvas id="holoCanvas"></canvas>
+                    <div class="drag-hint">DRAG TO ROTATE ARSENAL</div>
+                </div>
+            </div>
+
+            <!-- Right Panel: Diagnostics Telemetry HUD -->
+            <div class="sk-panel right-panel gc">
+                <div class="panel-hdr">
+                    <span class="panel-tag">// Diagnostics Telemetry</span>
+                    <h3>INTEGRATION VECTORS</h3>
+                </div>
+                <div class="telemetry-display">
+                    <div class="telemetry-target">
+                        <span class="t-lbl">TARGET:</span>
+                        <span id="telName" class="t-val">SELECT NODE</span>
+                    </div>
+                    <div class="telemetry-level">
+                        <span class="t-lbl">INTEGRATION LEVEL:</span>
+                        <div class="telemetry-bar-wrap">
+                            <div id="telBar" class="telemetry-bar" style="width: 0%;"></div>
+                            <span id="telPct" class="telemetry-pct">0%</span>
                         </div>
                     </div>
-                </div>
-
-                <!-- Languages & Frameworks -->
-                <div class="skill-category glass-panel" id="skills-languages">
-                    <h3 class="category-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
-                        </svg>
-                        <span>Development Stack</span>
-                    </h3>
-                    <div class="skill-badges">
-                        <div class="skill-badge" id="skill-java"><span>Java</span></div>
-                        <div class="skill-badge" id="skill-python"><span>Python</span></div>
-                        <div class="skill-badge" id="skill-javascript"><span>JavaScript</span></div>
-                        <div class="skill-badge" id="skill-cpp"><span>C++</span></div>
-                        <div class="skill-badge" id="skill-bash"><span>Bash</span></div>
+                    <div class="telemetry-stats">
+                        <div class="stat-row">
+                            <span class="stat-lbl">CORE CATEGORY:</span>
+                            <span id="telCat" class="stat-val">N/A</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-lbl">VECTOR STATUS:</span>
+                            <span id="telStatus" class="stat-val">STANDBY</span>
+                        </div>
+                        <div class="stat-row">
+                            <span class="stat-lbl">PERFORMANCE INDEX:</span>
+                            <span id="telIndex" class="stat-val">0.00</span>
+                        </div>
+                    </div>
+                    <div class="telemetry-log">
+                        <span class="log-lbl">// SYSTEM DIAGNOSTICS LOG:</span>
+                        <div id="telConsole" class="log-console">Initializing Tech Arsenal System Core...
+Select a skill node or category to inspect metrics.</div>
                     </div>
                 </div>
-
-                <!-- Databases & Monitoring -->
-                <div class="skill-category glass-panel" id="skills-databases">
-                    <h3 class="category-title">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                            <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
-                            <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
-                            <path d="M3 12c0 1.66 4 3 9 3s9-1.34 9-3"></path>
-                        </svg>
-                        <span>Data & Performance</span>
-                    </h3>
-                    <div class="skill-badges">
-                        <div class="skill-badge" id="skill-postgres"><span>PostgreSQL</span></div>
-                        <div class="skill-badge" id="skill-supabase"><span>Supabase</span></div>
-                        <div class="skill-badge" id="skill-mysql"><span>MySQL</span></div>
-                        <div class="skill-badge" id="skill-redis"><span>Redis</span></div>
-                        <div class="skill-badge" id="skill-prometheus"><span>Prometheus</span></div>
-                        <div class="skill-badge" id="skill-grafana"><span>Grafana</span></div>
-                    </div>
-                </div>
-
+            </div>
+        </div>
+        
+        <!-- Interactive Tech Badges -->
+        <div class="tbadges rv">
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #39ff14);">🐍</span>
+                <span class="tb-txt">Python</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #ff7300);">☕</span>
+                <span class="tb-txt">Java</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #00ffee);">💻</span>
+                <span class="tb-txt">C++</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #ffaa00);">☁️</span>
+                <span class="tb-txt">AWS</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #00a2ff);">🐳</span>
+                <span class="tb-txt">Docker</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #ffcc00);">🐧</span>
+                <span class="tb-txt">Linux</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #ff3cac);">🔀</span>
+                <span class="tb-txt">Git</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #39ff14);">🗄️</span>
+                <span class="tb-txt">SQL</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #ffcc00);">⚡</span>
+                <span class="tb-txt">Supabase</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #ff3cac);">🔄</span>
+                <span class="tb-txt">CI/CD</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #0089d6);">💙</span>
+                <span class="tb-txt">Azure</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #7b2fff);">🧠</span>
+                <span class="tb-txt">SageMaker</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #00ffee);">🔌</span>
+                <span class="tb-txt">REST APIs</span>
+            </div>
+            <div class="tb">
+                <span class="tb-ico" style="filter: drop-shadow(0 0 6px #ffffff);">▲</span>
+                <span class="tb-txt">Vercel</span>
             </div>
         </div>
     </section>
 
-    <!-- CERTIFICATIONS & LEARNING TRACK -->
+    <!-- FEATURED WORK PROJECTS -->
+    <section id="projects">
+        <!-- 3D Project blueprint background -->
+        <canvas id="projCanvas"></canvas>
+        <div class="sHdr rv">
+            <span class="sNum">03 // Projects</span>
+            <h2 class="sTitle">Featured Work</h2>
+            <div class="sDvd"></div>
+        </div>
+        <div class="pGrid">
+            <!-- Project 1 -->
+            <div class="pCard gc rv" data-depth="0.15">
+                <div class="pN">01</div>
+                <div class="pIco">🏡</div>
+                <div class="pTit">Land Real Estate Chatbot</div>
+                <p class="pDesc">AI-powered real estate chatbot with property management, interactive dashboards, real-time messaging and payment integration. Live on Vercel with Supabase backend.</p>
+                <div class="pTags">
+                    <span class="pt">Supabase</span>
+                    <span class="pt">PostgreSQL</span>
+                    <span class="pt">Vercel</span>
+                    <span class="pt">Real-time</span>
+                </div>
+                <div class="pLinks">
+                    <a href="https://landchatbot.vercel.app" target="_blank" rel="noopener noreferrer" class="pL">↗ Live Demo</a>
+                    <a href="https://github.com/Satyanarayana-Sidda/Land-Real-Estate-Chatbot" target="_blank" rel="noopener noreferrer" class="pL">⌥ GitHub</a>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="pCard gc rv" data-depth="0.2">
+                <div class="pN">02</div>
+                <div class="pIco">🚦</div>
+                <div class="pTit">Smart AWS Traffic System</div>
+                <p class="pDesc">Predictive event-driven smart traffic system on AWS with SageMaker XGBoost ML, live dashboards, signal control automation, and a complete 7-step data pipeline.</p>
+                <div class="pTags">
+                    <span class="pt">AWS</span>
+                    <span class="pt">SageMaker</span>
+                    <span class="pt">XGBoost</span>
+                    <span class="pt">ML</span>
+                </div>
+                <div class="pLinks">
+                    <a href="https://github.com/Satyanarayana-Sidda" target="_blank" rel="noopener noreferrer" class="pL">⌥ GitHub</a>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="pCard gc rv" data-depth="0.12">
+                <div class="pN">03</div>
+                <div class="pIco">🧠</div>
+                <div class="pTit">DocuMind RAG System</div>
+                <p class="pDesc">Enterprise-grade Retrieval-Augmented Generation (RAG) platform. Ingests documents, converts text into high-dimensional vector embeddings, stores them in vector DBs, and delivers AI answers with source citations.</p>
+                <div class="pTags">
+                    <span class="pt">RAG</span>
+                    <span class="pt">Vector DB</span>
+                    <span class="pt">LangChain</span>
+                    <span class="pt">LLMs</span>
+                    <span class="pt">Python</span>
+                </div>
+                <div class="pLinks">
+                    <a href="https://github.com/Satyanarayana-Sidda/DocuMind-RAG-Platform-System" target="_blank" rel="noopener noreferrer" class="pL">⌥ GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D INTERACTIVE CLOUD ARCHITECTURE -->
+    <section id="scene3d">
+        <!-- Interactive 3D WebGL Canvas -->
+        <canvas id="s3C"></canvas>
+        <div class="s3Overlay rv">
+            <span class="sNum">04 // Interactive 3D</span>
+            <h2 class="sTitle" style="font-size:clamp(1.5rem,3vw,2.5rem)">Cloud Architecture</h2>
+            <p style="color:rgba(0,255,238,.35);font-family:'Share Tech Mono',monospace;font-size:.7rem;letter-spacing:3px;margin-top:14px">DRAG TO ROTATE &nbsp;·&nbsp; SCROLL TO ZOOM</p>
+        </div>
+    </section>
+
+    <!-- TIMELINE JOURNEY -->
+    <section id="tline">
+        <!-- 3D Journey background canvas -->
+        <canvas id="tlCanvas"></canvas>
+        <div class="sHdr rv">
+            <span class="sNum">05 // Journey</span>
+            <h2 class="sTitle">My Journey</h2>
+            <div class="sDvd"></div>
+        </div>
+        <div class="tlW">
+            <!-- 2022 -->
+            <div class="tlIt tl-flip" data-year="2022">
+                <div class="tlDot"></div>
+                <div class="tlBx gc">
+                    <div class="tlContent">
+                        <div class="tlDate">2022</div>
+                        <h3 class="tlTit">Started B.Tech CSE at LPU</h3>
+                        <p class="tlDsc">Enrolled at Lovely Professional University. Deep-dived into C, C++, data structures, and algorithms from day one.</p>
+                    </div>
+                    <div class="tlMedia">
+                        <img src="assets/tl_2022.png" alt="2022 Milestone - LPU" class="tlImg">
+                    </div>
+                </div>
+                <div class="tlBx"></div>
+            </div>
+            
+            <!-- 2023 -->
+            <div class="tlIt tl-flip" data-year="2023">
+                <div class="tlDot"></div>
+                <div class="tlBx gc">
+                    <div class="tlContent">
+                        <div class="tlDate">2023</div>
+                        <h3 class="tlTit">Cloud & DevOps Focus</h3>
+                        <p class="tlDsc">Mastered AWS architecture, Linux systems, Python automation. Designed multi-layer cloud systems with real cost analysis.</p>
+                    </div>
+                    <div class="tlMedia">
+                        <img src="assets/tl_2023.png" alt="2023 Milestone - Cloud & DevOps" class="tlImg">
+                    </div>
+                </div>
+                <div class="tlBx"></div>
+            </div>
+            
+            <!-- 2024 -->
+            <div class="tlIt tl-flip" data-year="2024">
+                <div class="tlDot"></div>
+                <div class="tlBx gc">
+                    <div class="tlContent">
+                        <div class="tlDate">2024</div>
+                        <h3 class="tlTit">Portfolio Projects</h3>
+                        <p class="tlDsc">Architected Land Real Estate Chatbot, Smart AWS Traffic System, and DocuMind RAG System — all production-grade and deployed.</p>
+                    </div>
+                    <div class="tlMedia">
+                        <img src="assets/tl_2024.png" alt="2024 Milestone - Projects" class="tlImg">
+                    </div>
+                </div>
+                <div class="tlBx"></div>
+            </div>
+            
+            <!-- 2025-26 -->
+            <div class="tlIt tl-flip" data-year="2025">
+                <div class="tlDot"></div>
+                <div class="tlBx gc">
+                    <div class="tlContent">
+                        <div class="tlDate">2025–26</div>
+                        <h3 class="tlTit">Internship Grind</h3>
+                        <p class="tlDsc">Targeting Azure & DevOps internships. 150+ LeetCode problems, studying for Azure Solutions Architect, resume polish.</p>
+                    </div>
+                    <div class="tlMedia">
+                        <img src="assets/tl_2025.png" alt="2025 Milestone - Internship" class="tlImg">
+                    </div>
+                </div>
+                <div class="tlBx"></div>
+            </div>
+            
+            <!-- 2028 -->
+            <div class="tlIt tl-flip">
+                <div class="tlDot"></div>
+                <div class="tlBx gc">
+                    <div class="tlContent">
+                        <div class="tlDate">2028</div>
+                        <h3 class="tlTit">Graduation & Launch</h3>
+                        <p class="tlDsc">B.Tech CSE graduate — ready to architect world-class cloud infrastructure at leading tech companies.</p>
+                    </div>
+                    <div class="tlMedia">
+                        <img src="assets/tl_2028.png" alt="2028 Milestone - Graduation" class="tlImg">
+                    </div>
+                </div>
+                <div class="tlBx"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CERTIFICATIONS SECTION -->
     <section id="certifications">
-        <div class="container">
-            <h2 class="section-title"><span>Certifications</span> & Learning Track</h2>
-            <div class="tracks-timeline">
-                
-                <!-- Track 1: Salesforce Trailhead -->
-                <div class="track-card glass-panel" id="cert-trailhead">
-                    <div class="track-top">
-                        <div class="track-header">
-                            <span class="track-platform-badge platform-salesforce">Salesforce</span>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="platform-salesforce">
-                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
-                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
-                            </svg>
-                        </div>
-                        <h3 class="track-title">Salesforce Developer</h3>
-                        <p class="track-status">Pursuing Ranger rank & Platform Developer tracks.</p>
+        <!-- 3D Learning constellation background -->
+        <canvas id="learnCanvas"></canvas>
+        <div class="sHdr rv">
+            <span class="sNum">06 // Credentials</span>
+            <h2 class="sTitle">Learning & Tracks</h2>
+            <div class="sDvd"></div>
+        </div>
+        <div class="tracks-timeline">
+            <!-- Track 1: Azure Certifications -->
+            <div class="track-card gc rv" data-depth="0.15">
+                <div class="track-top">
+                    <div class="track-header">
+                        <span class="track-platform-badge platform-azure" style="border-color: rgba(0, 137, 214, 0.3); color: #0089d6;">Azure</span>
+                        <div class="track-icon-3d text-azure">💙</div>
                     </div>
-                    <div class="track-progress-container">
-                        <div class="progress-bar-label">
-                            <span>Goal: Ranger status</span>
-                            <strong>85%</strong>
+                    <h3 class="track-title">Azure Solutions Architect</h3>
+                    <p class="track-status">Pursuing AZ-104 (Administrator) & AZ-305 (Architect) designs.</p>
+                </div>
+                <div class="track-progress-container">
+                    <div class="progress-bar-label">
+                        <span>Study progress</span>
+                        <strong>75%</strong>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill fill-azure" style="width: 75%;">
+                            <div class="progress-glow"></div>
                         </div>
-                        <div class="progress-bar-bg">
-                            <div class="progress-bar-fill fill-salesforce" style="width: 85%;"></div>
+                    </div>
+                    <div class="track-footer-meta">
+                        <span>AZ-104 & AZ-305</span>
+                        <span>Cloud Architecture Target</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Track 2: AWS Certifications -->
+            <div class="track-card gc rv" data-depth="0.2">
+                <div class="track-top">
+                    <div class="track-header">
+                        <span class="track-platform-badge platform-aws">AWS</span>
+                        <div class="track-icon-3d text-aws">🧡</div>
+                    </div>
+                    <h3 class="track-title">Cloud Practitioner</h3>
+                    <p class="track-status">Deep studying for official Architect & Cloud Practitioner exams.</p>
+                </div>
+                <div class="track-progress-container">
+                    <div class="progress-bar-label">
+                        <span>Study progress</span>
+                        <strong>70%</strong>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill fill-aws" style="width: 70%;">
+                            <div class="progress-glow"></div>
                         </div>
-                        <div class="track-footer-meta">
-                            <span>Apex & LWC Tracks</span>
-                            <span>Futureforce Intern Target</span>
+                    </div>
+                    <div class="track-footer-meta">
+                        <span>Solutions Architect target</span>
+                        <span>Core Infrastructure focus</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Track 3: LeetCode Grind -->
+            <div class="track-card gc rv" data-depth="0.12">
+                <div class="track-top">
+                    <div class="track-header">
+                        <span class="track-platform-badge platform-leetcode">LeetCode</span>
+                        <div class="track-icon-3d text-lc">🔥</div>
+                    </div>
+                    <h3 class="track-title">150+ Target</h3>
+                    <p class="track-status">Daily problem solving to strengthen core logic & design algorithms.</p>
+                </div>
+                <div class="track-progress-container">
+                    <div class="progress-bar-label">
+                        <span>Problems solved</span>
+                        <strong>90%</strong>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill fill-leetcode" style="width: 90%;">
+                            <div class="progress-glow"></div>
                         </div>
+                    </div>
+                    <div class="track-footer-meta">
+                        <span>High Daily Streak</span>
+                        <span>Data Structures Expert</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Track 4: LPU Degree -->
+            <div class="track-card gc rv" data-depth="0.18">
+                <div class="track-top">
+                    <div class="track-header">
+                        <span class="track-platform-badge platform-lpu">LPU Degree</span>
+                        <div class="track-icon-3d text-lpu">🎓</div>
+                    </div>
+                    <h3 class="track-title">B.Tech CSE</h3>
+                    <p class="track-status">Currently in 2nd year of computer science. Graduating in 2028.</p>
+                </div>
+                <div class="track-progress-container">
+                    <div class="progress-bar-label">
+                        <span>Academic progress</span>
+                        <strong>40%</strong>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill fill-lpu" style="width: 40%;">
+                            <div class="progress-glow"></div>
+                        </div>
+                    </div>
+                    <div class="track-footer-meta">
+                        <span>Hyderabad / Bangalore location</span>
+                        <span>Graduation Year 2028</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CERTIFICATE CREDENTIALS WALL -->
+        <div class="certs-container rv" style="margin-top: 60px; display: flex; flex-direction: column; align-items: center; width: 100%; max-width: 1200px; padding: 0 20px; z-index: 2;">
+            <div class="certs-hdr" style="font-family: 'Orbitron', sans-serif; font-size: 0.8rem; font-weight: 700; color: var(--c); letter-spacing: 3px; border-bottom: 1px dashed rgba(0, 255, 238, 0.2); padding-bottom: 10px; margin-bottom: 24px; text-transform: uppercase; width: 100%; text-align: left;">
+                // Verified Credentials
+            </div>
+            <div class="certs-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card gc" style="--card-glow: rgba(244, 85, 51, 0.25); --card-accent: #ff5533; --card-accent-rgb: 244, 85, 51;">
+                    <!-- Cyber Corner Highlights -->
+                    <div class="cert-card-corner top-left"></div>
+                    <div class="cert-card-corner top-right"></div>
+                    <div class="cert-card-corner bottom-left"></div>
+                    <div class="cert-card-corner bottom-right"></div>
+                    
+                    <!-- Tech Grid & Scanner -->
+                    <div class="cert-card-grid"></div>
+                    <div class="cert-card-scanner"></div>
+
+                    <!-- Left-side 3D Holographic Rotating Badge Seal -->
+                    <div class="cert-holo-seal">
+                        <div class="seal-ring outer-ring"></div>
+                        <div class="seal-ring middle-ring"></div>
+                        <div class="seal-core">ORA</div>
+                    </div>
+                    <!-- Right-side diagnostic telemetry block -->
+                    <div class="cert-info-block">
+                        <div class="cert-brand-wrapper">
+                            <span class="cert-brand-tag tag-oracle">ORACLE CERTIFIED</span>
+                            <span class="cert-telemetry-id">ID // ORA-2025-DP</span>
+                        </div>
+                        <h4 class="cert-name">Oracle Data Platform 2025 Certified Foundations Associate</h4>
+                        <div class="cert-footer-meta">
+                            <span class="meta-item"><span class="meta-lbl">SECTOR:</span> <span class="meta-val">DATA.INFRA</span></span>
+                            <span class="meta-item"><span class="meta-lbl">STATUS:</span> <span class="meta-val text-green"><span class="status-beacon"></span> ACTIVE</span></span>
+                            <span class="meta-item"><span class="meta-lbl">YEAR:</span> <span class="meta-val">2025</span></span>
+                        </div>
+                    </div>
+
+                    <!-- Telemetry Barcode Graphic -->
+                    <div class="cert-barcode">
+                        <div class="barcode-line" style="width: 2px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 4px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 2px;"></div>
+                        <div class="barcode-line" style="width: 3px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 2px;"></div>
                     </div>
                 </div>
 
-                <!-- Track 2: AWS Certifications -->
-                <div class="track-card glass-panel" id="cert-aws">
-                    <div class="track-top">
-                        <div class="track-header">
-                            <span class="track-platform-badge platform-aws">AWS</span>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="platform-aws">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg>
-                        </div>
-                        <h3 class="track-title">Cloud Practitioner</h3>
-                        <p class="track-status">Deep studying for official Architect & Cloud Practitoner exams.</p>
+                <!-- Cert 2 -->
+                <div class="cert-card gc" style="--card-glow: rgba(244, 85, 51, 0.25); --card-accent: #ff5533; --card-accent-rgb: 244, 85, 51;">
+                    <!-- Cyber Corner Highlights -->
+                    <div class="cert-card-corner top-left"></div>
+                    <div class="cert-card-corner top-right"></div>
+                    <div class="cert-card-corner bottom-left"></div>
+                    <div class="cert-card-corner bottom-right"></div>
+                    
+                    <!-- Tech Grid & Scanner -->
+                    <div class="cert-card-grid"></div>
+                    <div class="cert-card-scanner"></div>
+
+                    <!-- Left-side 3D Holographic Rotating Badge Seal -->
+                    <div class="cert-holo-seal">
+                        <div class="seal-ring outer-ring"></div>
+                        <div class="seal-ring middle-ring"></div>
+                        <div class="seal-core">AI</div>
                     </div>
-                    <div class="track-progress-container">
-                        <div class="progress-bar-label">
-                            <span>Study progress</span>
-                            <strong>70%</strong>
+                    <!-- Right-side diagnostic telemetry block -->
+                    <div class="cert-info-block">
+                        <div class="cert-brand-wrapper">
+                            <span class="cert-brand-tag tag-oracle">ORACLE CERTIFIED</span>
+                            <span class="cert-telemetry-id">ID // ORA-2025-CI</span>
                         </div>
-                        <div class="progress-bar-bg">
-                            <div class="progress-bar-fill fill-aws" style="width: 70%;"></div>
+                        <h4 class="cert-name">Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</h4>
+                        <div class="cert-footer-meta">
+                            <span class="meta-item"><span class="meta-lbl">SECTOR:</span> <span class="meta-val">CLOUD.AI</span></span>
+                            <span class="meta-item"><span class="meta-lbl">STATUS:</span> <span class="meta-val text-green"><span class="status-beacon"></span> ACTIVE</span></span>
+                            <span class="meta-item"><span class="meta-lbl">YEAR:</span> <span class="meta-val">2025</span></span>
                         </div>
-                        <div class="track-footer-meta">
-                            <span>Solutions Architect target</span>
-                            <span>Core Infrastructure focus</span>
-                        </div>
+                    </div>
+
+                    <!-- Telemetry Barcode Graphic -->
+                    <div class="cert-barcode">
+                        <div class="barcode-line" style="width: 2px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 4px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 2px;"></div>
+                        <div class="barcode-line" style="width: 3px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 2px;"></div>
                     </div>
                 </div>
 
-                <!-- Track 3: LeetCode Grind -->
-                <div class="track-card glass-panel" id="cert-leetcode">
-                    <div class="track-top">
-                        <div class="track-header">
-                            <span class="track-platform-badge platform-leetcode">LeetCode</span>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="platform-leetcode">
-                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                            </svg>
-                        </div>
-                        <h3 class="track-title">150+ Target</h3>
-                        <p class="track-status">Daily problem solving to strengthen core logic & design algorithms.</p>
+                <!-- Cert 3 -->
+                <div class="cert-card gc" style="--card-glow: rgba(0, 162, 255, 0.25); --card-accent: #00a2ff; --card-accent-rgb: 0, 162, 255;">
+                    <!-- Cyber Corner Highlights -->
+                    <div class="cert-card-corner top-left"></div>
+                    <div class="cert-card-corner top-right"></div>
+                    <div class="cert-card-corner bottom-left"></div>
+                    <div class="cert-card-corner bottom-right"></div>
+                    
+                    <!-- Tech Grid & Scanner -->
+                    <div class="cert-card-grid"></div>
+                    <div class="cert-card-scanner"></div>
+
+                    <!-- Left-side 3D Holographic Rotating Badge Seal -->
+                    <div class="cert-holo-seal">
+                        <div class="seal-ring outer-ring"></div>
+                        <div class="seal-ring middle-ring"></div>
+                        <div class="seal-core">IBM</div>
                     </div>
-                    <div class="track-progress-container">
-                        <div class="progress-bar-label">
-                            <span>Problems solved</span>
-                            <strong>90%</strong>
+                    <!-- Right-side diagnostic telemetry block -->
+                    <div class="cert-info-block">
+                        <div class="cert-brand-wrapper">
+                            <span class="cert-brand-tag tag-ibm">IBM SKILLSBUILD</span>
+                            <span class="cert-telemetry-id">ID // IBM-2025-AI</span>
                         </div>
-                        <div class="progress-bar-bg">
-                            <div class="progress-bar-fill fill-leetcode" style="width: 90%;"></div>
+                        <h4 class="cert-name">IBM SkillsBuild Next Gen AI Certification</h4>
+                        <div class="cert-footer-meta">
+                            <span class="meta-item"><span class="meta-lbl">SECTOR:</span> <span class="meta-val">GEN.AI</span></span>
+                            <span class="meta-item"><span class="meta-lbl">STATUS:</span> <span class="meta-val text-green"><span class="status-beacon"></span> ACTIVE</span></span>
+                            <span class="meta-item"><span class="meta-lbl">YEAR:</span> <span class="meta-val">2025</span></span>
                         </div>
-                        <div class="track-footer-meta">
-                            <span>High Daily Streak</span>
-                            <span>Data Structures Expert</span>
-                        </div>
+                    </div>
+
+                    <!-- Telemetry Barcode Graphic -->
+                    <div class="cert-barcode">
+                        <div class="barcode-line" style="width: 2px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 4px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 2px;"></div>
+                        <div class="barcode-line" style="width: 3px;"></div>
+                        <div class="barcode-line" style="width: 1px;"></div>
+                        <div class="barcode-line" style="width: 2px;"></div>
                     </div>
                 </div>
-
-                <!-- Track 4: LPU Degree -->
-                <div class="track-card glass-panel" id="cert-lpu">
-                    <div class="track-top">
-                        <div class="track-header">
-                            <span class="track-platform-badge platform-lpu">Lovely Professional University</span>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="platform-lpu">
-                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
-                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="track-title">B.Tech CSE</h3>
-                        <p class="track-status">Currently in 2nd year of computer science. Graduating in 2028.</p>
-                    </div>
-                    <div class="track-progress-container">
-                        <div class="progress-bar-label">
-                            <span>Academic progress</span>
-                            <strong>40%</strong>
-                        </div>
-                        <div class="progress-bar-bg">
-                            <div class="progress-bar-fill fill-lpu" style="width: 40%;"></div>
-                        </div>
-                        <div class="track-footer-meta">
-                            <span>Hyderabad / Bangalore location</span>
-                            <span>Graduation Year 2028</span>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
     </section>
 
-    <!-- CONTACT / CONNECT SECTION -->
+    <!-- TRANSITIONAL DATA DIVISION -->
+    <section id="telemetry-transition" class="telemetry-sec">
+        <!-- 3D Swirling Ribbon Canvas -->
+        <canvas id="transCanvas"></canvas>
+        <div class="telemetry-hud rv">
+            <div class="hud-item"><span class="hud-lbl">CORE.STATUS</span><span class="hud-val text-cyan">ONLINE</span></div>
+            <div class="hud-item"><span class="hud-lbl">DATA.FLOW</span><span class="hud-val text-pink">SECURE PIPELINE</span></div>
+            <div class="hud-item"><span class="hud-lbl">PIPELINE.CAPACITY</span><span class="hud-val text-green">100% OPTIMIZED</span></div>
+        </div>
+    </section>
+
+    <!-- CONTACT CONNECT -->
     <section id="contact">
-        <div class="container">
-            <h2 class="section-title"><span>Let's Connect</span> & Build</h2>
-            <div class="contact-grid">
-                
-                <div class="contact-info-panel">
-                    <div class="contact-card glass-panel">
-                        <p class="contact-quote">"The cloud is not just a technology — it's a mindset of infinite scalability."</p>
-                        <p class="term-muted" style="margin-bottom: 2rem;">Always open for Cloud & DevOps internships, collaborative infrastructure builds, or deep architectural discussions.</p>
-                        
-                        <div class="contact-socials-list">
-                            <a href="https://github.com/Satyanarayana-Sidda" target="_blank" class="social-item" id="contact-link-github">
-                                <div class="social-item-icon">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
-                                    </svg>
-                                </div>
-                                <span>GitHub / Satyanarayana-Sidda</span>
-                            </a>
-                            <a href="https://www.linkedin.com/in/satya-sidda" target="_blank" class="social-item" id="contact-link-linkedin">
-                                <div class="social-item-icon">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
-                                        <rect x="2" y="9" width="4" height="12"></rect>
-                                        <circle cx="4" cy="4" r="2"></circle>
-                                    </svg>
-                                </div>
-                                <span>LinkedIn / satya-sidda</span>
-                            </a>
-                            <a href="https://www.instagram.com/satyanarayana__sidda.39" target="_blank" class="social-item" id="contact-link-instagram">
-                                <div class="social-item-icon">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-                                    </svg>
-                                </div>
-                                <span>Instagram / satyanarayana__sidda.39</span>
-                            </a>
-                            <a href="mailto:satyanarayana@example.com" class="social-item" id="contact-link-email">
-                                <div class="social-item-icon">
-                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
-                                        <polyline points="22,6 12,13 2,6"></polyline>
-                                    </svg>
-                                </div>
-                                <span>satyanarayana@example.com</span>
-                            </a>
+        <!-- 3D Connection network background -->
+        <canvas id="contactCanvas"></canvas>
+        <div class="sHdr rv">
+            <span class="sNum">07 // Contact</span>
+            <h2 class="sTitle">Let's Connect</h2>
+            <div class="sDvd"></div>
+        </div>
+        <div class="ctW">
+            <div class="ctI rv">
+                <h3>Open to Opportunities</h3>
+                <p>Actively seeking Cloud & DevOps internships, open-source collaborations, and exciting projects. Let's build something remarkable.</p>
+                <div class="ctLinks">
+                    <a href="https://linkedin.com/in/satya-sidda" target="_blank" rel="noopener noreferrer" class="ctL">
+                        <span class="ctIco">💼</span>
+                        <div>
+                            <div class="ctLbl">LinkedIn</div>
+                            <div>linkedin.com/in/satya-sidda</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Satyanarayana-Sidda" target="_blank" rel="noopener noreferrer" class="ctL">
+                        <span class="ctIco">🐙</span>
+                        <div>
+                            <div class="ctLbl">GitHub</div>
+                            <div>Satyanarayana-Sidda</div>
+                        </div>
+                    </a>
+                    <div class="ctL">
+                        <span class="ctIco">📍</span>
+                        <div>
+                            <div class="ctLbl">Location</div>
+                            <div>Hyderabad / Bangalore, India</div>
+                        </div>
+                    </div>
+                    <div class="ctL">
+                        <span class="ctIco">🎓</span>
+                        <div>
+                            <div class="ctLbl">University</div>
+                            <div>Lovely Professional University</div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Form -->
-                <form class="contact-form glass-panel" id="contact-form" novalidate>
-                    <div class="form-group">
-                        <label for="contact-name">Name</label>
-                        <input type="text" id="contact-name" class="form-input" placeholder="Your Name" required>
+            </div>
+            <div class="rv">
+                <!-- Connect Form -->
+                <form class="ctF gc" id="contact-form" novalidate>
+                    <div class="fGrp">
+                        <label class="fLbl" for="contact-name">Name</label>
+                        <input type="text" id="contact-name" class="fInp" placeholder="Your Name" required autocomplete="name">
                     </div>
-                    <div class="form-group">
-                        <label for="contact-email">Email</label>
-                        <input type="email" id="contact-email" class="form-input" placeholder="your.email@domain.com" required>
+                    <div class="fGrp">
+                        <label class="fLbl" for="contact-email">Email</label>
+                        <input type="email" id="contact-email" class="fInp" placeholder="your@email.com" required autocomplete="email">
                     </div>
-                    <div class="form-group">
-                        <label for="contact-message">Message</label>
-                        <textarea id="contact-message" class="form-input" placeholder="Let's build a new automated cluster..." required></textarea>
+                    <div class="fGrp">
+                        <label class="fLbl" for="contact-message">Message</label>
+                        <textarea id="contact-message" class="fInp" placeholder="Tell me about your project..." required></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary form-submit-btn" id="contact-submit-btn">
-                        <span>Send Message</span>
-                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="22" y1="2" x2="11" y2="13"></line>
-                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                        </svg>
-                    </button>
+                    <button type="submit" class="btn3 p" id="contact-submit-btn" style="width:100%; border:none;">Send Message</button>
                 </form>
-
             </div>
         </div>
     </section>
 
-    <!-- SUCCESS TOAST NOTIFICATION -->
+    <!-- FOOTER -->
+    <footer>
+        <!-- 3D Waving Cyber-Wave Grid Backdrop -->
+        <canvas id="footerCanvas"></canvas>
+        <div class="fLogo">S · N · S</div>
+        <p style="color:rgba(100,160,180,.45); margin:8px 0 5px; font-size:.88rem">Sidda Naga Satyanarayana</p>
+        <p class="fTxt">Cloud | DevOps Engineer &nbsp;·&nbsp; LPU 2028 &nbsp;·&nbsp; Built with Three.js & Custom WebGL Shaders</p>
+    </footer>
+
+    <!-- GLASSMORPHIC CORNER SLIDE-IN TOAST ALERT -->
     <div class="toast-notification" id="form-toast">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="toast-icon">
             <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
             <polyline points="22 4 12 14.01 9 11.01"></polyline>
         </svg>
-        <span>Message transmitted successfully!</span>
+        <span id="toast-message">Message transmitted successfully!</span>
     </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="container footer-content">
-            <div class="footer-text">
-                &copy; 2026 Sidda Naga Satyanarayana. All rights reserved.
-            </div>
-            <div class="footer-text">
-                Designed & Built with <span class="footer-heart">♥</span> and deployed on <strong class="term-aws" style="text-shadow: 0 0 8px var(--accent-aws-glow);">AWS</strong>.
-            </div>
-        </div>
-    </footer>
-
-    <script src="app.js"></script>
+    <!-- THREE.JS ENGINE CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+    <!-- APPLICATION INTERACTION SCRIPTS with Cache Buster -->
+    <script src="app.js?v=5.1"></script>
 </body>
 </html>

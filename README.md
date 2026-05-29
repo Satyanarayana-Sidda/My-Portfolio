@@ -57,7 +57,7 @@ class SiddaNagaSatyanarayana:
 
     def current_work(self):
         return {
-            "internship": "Salesforce Futureforce Track",
+            "internship": "Azure Cloud & DevOps track",
             "learning": "AWS Solutions Architect & Advanced Kubernetes",
             "fun_fact": "Turning complex infra problems into single-click automations ⚡"
         }
@@ -143,7 +143,7 @@ class SiddaNagaSatyanarayana:
 
 | Platform | Progress | Badge |
 |----------|----------|-------|
-| **Salesforce Trailhead** | Ranger Track 🎯 | ![Salesforce](https://img.shields.io/badge/Trailhead-In_Progress-00A1E0?style=flat-square&logo=salesforce) |
+| **Azure Solutions Architect** | AZ-104 & AZ-305 🎯 | ![Azure](https://img.shields.io/badge/Azure-In_Progress-0089D6?style=flat-square&logo=microsoftazure) |
 | **AWS Cloud Practitioner** | Studying 📚 | ![AWS](https://img.shields.io/badge/AWS-Pursuing-FF9900?style=flat-square&logo=amazonaws) |
 | **LeetCode** | 150+ Target 🔥 | ![LeetCode](https://img.shields.io/badge/LeetCode-Active-FFA116?style=flat-square&logo=leetcode) |
 | **B.Tech CSE @ LPU** | 2nd Year · 2028 🎓 | ![LPU](https://img.shields.io/badge/LPU-CSE-6C3483?style=flat-square) |
@@ -166,7 +166,7 @@ class SiddaNagaSatyanarayana:
 
 🔹 **Kubernetes Advanced Patterns** (Helm, Operators)<br>
 🔹 **AWS Solutions Architect** – Associate<br>
-🔹 **Salesforce Platform Development** (Apex, LWC)<br>
+🔹 **Azure Cloud Engineering** (ARM, Bicep, AKS)<br>
 🔹 **Distributed Systems** (Consensus, CAP Theorem)<br>
 🔹 **System Design** (HLD + LLD for interviews)
 
@@ -174,7 +174,7 @@ class SiddaNagaSatyanarayana:
 
 ## 🤝 Open To
 
-💼 **Cloud/DevOps Internships** (Salesforce Futureforce, AWS, GCP)<br>
+💼 **Cloud/DevOps Internships** (Azure, AWS, GCP)<br>
 🛠️ **Open Source Contributions** in Cloud tooling & IaC<br>
 🧠 **Collaborative Projects** in AI + Cloud integration<br>
 📬 **Mentorship & Tech Discussions**
