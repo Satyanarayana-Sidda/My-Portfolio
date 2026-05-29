@@ -25,7 +25,7 @@
       <img src="https://img.shields.io/badge/Repos-7-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Repos"/>
     </a>
     <img src="https://komarev.com/ghpvc/?username=Satyanarayana-Sidda&color=FF9900&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views"/>
-    <a href="https://satyanarayana-sidda.github.io/Satyanarayana-Sidda/">
+    <a href="https://satyanarayana-sidda.github.io/My-Portfolio/">
       <img src="https://img.shields.io/badge/Portfolio_Demo-a855f7?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Portfolio Demo"/>
     </a>
   </p>
@@ -65,7 +65,7 @@ class SiddaNagaSatyanarayana:
 
    </td>
    <td width="50%" valign="middle" align="center">
-     <img src="https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/assets/cinematic_developer_framed.png" width="100%" alt="Developer Illustration" />
+     <img src="https://raw.githubusercontent.com/Satyanarayana-Sidda/My-Portfolio/main/assets/cinematic_developer_framed.png" width="100%" alt="Developer Illustration" />
    </td>
  </tr>
 </table>
@@ -156,7 +156,7 @@ class SiddaNagaSatyanarayana:
 
 <div align="center">
 
-![GitHub 3D Contributions](https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/profile-3d-contrib/profile-gitblock.svg)
+![GitHub 3D Contributions](https://raw.githubusercontent.com/Satyanarayana-Sidda/My-Portfolio/main/profile-3d-contrib/profile-gitblock.svg)
 
 </div>
 
