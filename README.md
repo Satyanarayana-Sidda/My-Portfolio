@@ -65,7 +65,7 @@ class SiddaNagaSatyanarayana:
 
    </td>
    <td width="50%" valign="middle" align="center">
-     <img src="https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/assets/cinematic_developer.png" width="100%" alt="Developer Illustration" />
+     <img src="https://raw.githubusercontent.com/Satyanarayana-Sidda/Satyanarayana-Sidda/main/assets/cinematic_developer_v2.png" width="100%" alt="Developer Illustration" />
    </td>
  </tr>
 </table>
